@@ -15,6 +15,7 @@
 		B3514C3C21F991E000035C73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3514C3B21F991E000035C73 /* main.m */; };
 		B3514C4621F991E000035C73 /* SJModuleETests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3514C4521F991E000035C73 /* SJModuleETests.m */; };
 		B3514C5121F991E000035C73 /* SJModuleEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3514C5021F991E000035C73 /* SJModuleEUITests.m */; };
+		B3514C6121F992C100035C73 /* sss.m in Sources */ = {isa = PBXBuildFile; fileRef = B3514C6021F992C100035C73 /* sss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B3514C4C21F991E000035C73 /* SJModuleEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SJModuleEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3514C5021F991E000035C73 /* SJModuleEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJModuleEUITests.m; sourceTree = "<group>"; };
 		B3514C5221F991E000035C73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3514C5F21F992C100035C73 /* sss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sss.h; sourceTree = "<group>"; };
+		B3514C6021F992C100035C73 /* sss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B3514C2B21F991DE00035C73 /* SJModuleE */ = {
 			isa = PBXGroup;
 			children = (
+				B3514C5E21F992AF00035C73 /* ModuleE */,
 				B3514C2C21F991DE00035C73 /* AppDelegate.h */,
 				B3514C2D21F991DE00035C73 /* AppDelegate.m */,
 				B3514C2F21F991DE00035C73 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				B3514C5221F991E000035C73 /* Info.plist */,
 			);
 			path = SJModuleEUITests;
+			sourceTree = "<group>";
+		};
+		B3514C5E21F992AF00035C73 /* ModuleE */ = {
+			isa = PBXGroup;
+			children = (
+				B3514C5F21F992C100035C73 /* sss.h */,
+				B3514C6021F992C100035C73 /* sss.m */,
+			);
+			path = ModuleE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3514C3121F991DE00035C73 /* ViewController.m in Sources */,
+				B3514C6121F992C100035C73 /* sss.m in Sources */,
 				B3514C3C21F991E000035C73 /* main.m in Sources */,
 				B3514C2E21F991DE00035C73 /* AppDelegate.m in Sources */,
 			);
